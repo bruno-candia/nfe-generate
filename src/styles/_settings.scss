@@ -1,0 +1,20 @@
+//vars
+$font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+$color--blue: #4ba6e8;
+
+$bg--light: #F5F4F3;
+$color--primary--light:#b3bfd7;
+$color--secondary--light:#e5e9f2;
+$bg--card--light: lighten($bg--light, 1%);
+$border--light: darken($bg--card--light, 10%);
+$hover--light: transparentize($color--secondary--light, .9);
+
+$bg--dark: #1b1e25;
+$color--primary--dark:#656a80;
+$color--secondary--dark:#4d5061;
+$color--tertiary--dark: #d8d8d8;
+$bg--card--dark: desaturate(lighten($bg--dark, 5%), 5%);
+$border--dark: lighten($bg--card--dark, 10%);
+$hover--dark: transparentize($color--secondary--dark, .9);
+

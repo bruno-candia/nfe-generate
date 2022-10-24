@@ -1,0 +1,38 @@
+//shortcuts
+$bg: 'bg';
+$card-bg: 'card-bg';
+$card-border: 'card-border';
+$text: 'text';
+$text-important: 'text-important';
+$text-secondary: 'text-secondary';
+$text-badge: 'text-badge';
+$link: 'link';
+$hover: 'hover';
+$logo: 'logo';
+$logo2: 'logo-2';
+$brand-secondary: 'brand-blue';
+$brand-primary: 'brand-red';
+$border: 'border';
+
+//themes
+$themes: (
+        default: (
+                bg: $bg--light,
+                card-bg: $bg--card--light,
+                text: $color--primary--light,
+                text-important: $color--blue,
+                text-secondary: $color--secondary--light,
+                hover: $hover--light,
+                border: $border--light
+        ),
+        dark: (
+                bg: $bg--dark,
+                card-bg: $bg--card--dark,
+                text: $color--primary--dark,
+                text-important: $color--blue,
+                text-secondary: $color--secondary--dark,
+                hover: $hover--dark,
+                border: $border--dark
+        ),
+);
+
